@@ -1,0 +1,31 @@
+<package format="3">
+  <!-- 必选标签：与功能包目录名一致，无特殊字符 -->
+  <name>shabi</name>
+  <!-- 必选标签：版本号格式合规 -->
+  <version>1.0.0</version>
+  <!-- 必选标签：描述非空，格式合规 -->
+  <description>URDF Description package for shabi robot, including config, 3D models and launch files.</description>
+  <!-- 可选标签：非占位符内容 -->
+  <author>ubuntu</author>
+  <!-- 必选标签：仅保留email属性，姓名写在标签内（ROS 2专属合法写法） -->
+  <maintainer email="ubuntu@local.com">ubuntu</maintainer>
+  <!-- 必选标签：许可证合法 -->
+  <license>BSD</license>
+
+  <!-- 必选构建工具依赖：ROS 2 Humble必备 -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- 构建时依赖（若无需消息生成，可保留为空） -->
+  <build_depend>rosidl_default_generators</build_depend>
+
+  <!-- 运行时依赖：细分配置更规范 -->
+  <exec_depend>robot_state_publisher</exec_depend>
+  <exec_depend>rviz2</exec_depend>
+  <exec_depend>joint_state_publisher_gui</exec_depend>
+  <exec_depend>gazebo_ros</exec_depend>
+
+  <!-- 导出标签：声明包类型，ROS 2识别必备 -->
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

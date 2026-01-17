@@ -1,0 +1,49 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ubuntu/arm_ws/build/shabi
+-- Install configuration: ""
+-- Installing: /home/ubuntu/arm_ws/install/shabi/share/shabi/urdf
+-- Installing: /home/ubuntu/arm_ws/install/shabi/share/shabi/urdf/shabi.urdf
+-- Installing: /home/ubuntu/arm_ws/install/shabi/share/shabi/urdf/shabi.csv
+-- Installing: /home/ubuntu/arm_ws/install/shabi/share/shabi/launch
+-- Installing: /home/ubuntu/arm_ws/install/shabi/share/shabi/launch/gazebo.launch
+-- Installing: /home/ubuntu/arm_ws/install/shabi/share/shabi/launch/display.launch
+-- Installing: /home/ubuntu/arm_ws/install/shabi/share/shabi/meshes
+-- Installing: /home/ubuntu/arm_ws/install/shabi/share/shabi/meshes/base_link.STL
+-- Installing: /home/ubuntu/arm_ws/install/shabi/share/shabi/meshes/link1.STL
+-- Installing: /home/ubuntu/arm_ws/install/shabi/share/shabi/meshes/link2.STL
+-- Installing: /home/ubuntu/arm_ws/install/shabi/share/shabi/meshes/link3.STL
+-- Installing: /home/ubuntu/arm_ws/install/shabi/share/shabi/meshes/link6.STL
+-- Installing: /home/ubuntu/arm_ws/install/shabi/share/shabi/meshes/link4.STL
+-- Installing: /home/ubuntu/arm_ws/install/shabi/share/shabi/meshes/link5.STL
+-- Installing: /home/ubuntu/arm_ws/install/shabi/share/shabi/config
+-- Installing: /home/ubuntu/arm_ws/install/shabi/share/shabi/config/joint_names_shabi.yaml
+-- Installing: /home/ubuntu/arm_ws/install/shabi/share/ament_index/resource_index/package_run_dependencies/shabi
+-- Installing: /home/ubuntu/arm_ws/install/shabi/share/ament_index/resource_index/parent_prefix_path/shabi
+-- Installing: /home/ubuntu/arm_ws/install/shabi/share/shabi/environment/ament_prefix_path.sh
+-- Installing: /home/ubuntu/arm_ws/install/shabi/share/shabi/environment/ament_prefix_path.dsv
+-- Installing: /home/ubuntu/arm_ws/install/shabi/share/shabi/environment/path.sh
+-- Installing: /home/ubuntu/arm_ws/install/shabi/share/shabi/environment/path.dsv
+-- Installing: /home/ubuntu/arm_ws/install/shabi/share/shabi/local_setup.bash
+-- Installing: /home/ubuntu/arm_ws/install/shabi/share/shabi/local_setup.sh
+-- Installing: /home/ubuntu/arm_ws/install/shabi/share/shabi/local_setup.zsh
+-- Installing: /home/ubuntu/arm_ws/install/shabi/share/shabi/local_setup.dsv
+-- Installing: /home/ubuntu/arm_ws/install/shabi/share/shabi/package.dsv
+-- Installing: /home/ubuntu/arm_ws/install/shabi/share/ament_index/resource_index/packages/shabi
+-- Installing: /home/ubuntu/arm_ws/install/shabi/share/shabi/cmake/shabiConfig.cmake
+-- Installing: /home/ubuntu/arm_ws/install/shabi/share/shabi/cmake/shabiConfig-version.cmake
+-- Installing: /home/ubuntu/arm_ws/install/shabi/share/shabi/package.xml

@@ -1,0 +1,25 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: shabi
+    relative_path: urdf/shabi.urdf
+  srdf:
+    relative_path: config/shabi.srdf
+  package_settings:
+    author_name: ""
+    author_email: ""
+    generated_timestamp: 1766922028
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
