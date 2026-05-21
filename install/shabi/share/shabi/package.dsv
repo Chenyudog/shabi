@@ -1,8 +1,0 @@
-source;share/shabi/hook/cmake_prefix_path.ps1
-source;share/shabi/hook/cmake_prefix_path.dsv
-source;share/shabi/hook/cmake_prefix_path.sh
-source;share/shabi/local_setup.bash
-source;share/shabi/local_setup.dsv
-source;share/shabi/local_setup.ps1
-source;share/shabi/local_setup.sh
-source;share/shabi/local_setup.zsh

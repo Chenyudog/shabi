@@ -1,9 +1,0 @@
-/home/ubuntu/arm_ws/build/shabi_ws/CMakeFiles/uninstall.dir
-/home/ubuntu/arm_ws/build/shabi_ws/CMakeFiles/shabi_ws_uninstall.dir
-/home/ubuntu/arm_ws/build/shabi_ws/CMakeFiles/test.dir
-/home/ubuntu/arm_ws/build/shabi_ws/CMakeFiles/edit_cache.dir
-/home/ubuntu/arm_ws/build/shabi_ws/CMakeFiles/rebuild_cache.dir
-/home/ubuntu/arm_ws/build/shabi_ws/CMakeFiles/list_install_components.dir
-/home/ubuntu/arm_ws/build/shabi_ws/CMakeFiles/install.dir
-/home/ubuntu/arm_ws/build/shabi_ws/CMakeFiles/install/local.dir
-/home/ubuntu/arm_ws/build/shabi_ws/CMakeFiles/install/strip.dir
