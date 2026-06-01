@@ -21,9 +21,10 @@ def generate_launch_description():
     # 控制器配置文件路径（无需手动传递，gazebo_ros2_control 会自动加载（需在URDF中配置））
     controller_config_path = os.path.join(pkg_share, 'config/ros2_controllers.yaml')
 
+    gazebo_world=os.path.join(pkg_share,'gazebo_world','cabinet.world')
     # Start Gazebo server
     start_gazebo_cmd =  ExecuteProcess(
-        cmd=['gazebo', '--verbose','-s', 'libgazebo_ros_init.so', '-s', 'libgazebo_ros_factory.so'],
+        cmd=['gazebo', '--verbose', gazebo_world,'-s', 'libgazebo_ros_init.so', '-s', 'libgazebo_ros_factory.so'],
         output='screen')
 
     # 编译 URDF，移除注释
@@ -39,8 +40,6 @@ def generate_launch_description():
         parameters=[{'use_sim_time': True}, params, {"publish_frequency":15.0}],
         output='screen'
     )
-
-    # 移除：显式启动的 controller_manager_node（与 gazebo_ros2_control 隐式节点冲突）
 
     # 在 Gazebo 中生成机械臂模型
     spawn_entity_cmd = Node(
