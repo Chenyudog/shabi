@@ -13,6 +13,8 @@ add_executable(test_moveit  src/joint_space_trajectory_control.cpp)
 add_executable(cartian_pose  src/cartian_pose.cpp)
 add_executable(cartian_path  src/cartian_path.cpp)
 add_executable(obstacle_pose  src/obstacle_pose.cpp)
+add_executable(learning  src/learning.cpp)
+add_executable(commander_template  src/commander_template.cpp)
 
 ament_target_dependencies(test_moveit
   rclcpp
@@ -46,6 +48,22 @@ ament_target_dependencies(obstacle_pose
   moveit_msgs
 )
 
+ament_target_dependencies(learning
+  rclcpp
+  moveit_ros_planning_interface
+  geometry_msgs
+  tf2_geometry_msgs
+  moveit_msgs
+)
+
+ament_target_dependencies(commander_template
+  rclcpp
+  moveit_ros_planning_interface
+  geometry_msgs
+  tf2_geometry_msgs
+  moveit_msgs
+)
+
 install(
   DIRECTORY launch meshes config urdf bash gazebo_world
   DESTINATION share/${PROJECT_NAME}
@@ -54,7 +72,7 @@ install(
 
 
 install(TARGETS
-  test_moveit cartian_pose cartian_path obstacle_pose
+  test_moveit cartian_pose cartian_path obstacle_pose learning commander_template
   DESTINATION lib/${PROJECT_NAME}
 )
 
